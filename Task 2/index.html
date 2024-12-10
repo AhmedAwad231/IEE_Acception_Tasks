@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Task 2</title>
+  </head>
+  <body>
+    <h1
+      style="
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+      "
+    >
+      Answer In Console
+    </h1>
+    <script>
+      function longest(arr) {
+        if (arr.length === 0) {
+          return null;
+        } else {
+          let start = arr[0].length;
+          let ans = arr[0];
+          for (let i = 0; i < arr.length; i++) {
+            let max = arr[i].length;
+            if (max > start) {
+              ans = arr[i];
+              start = max;
+            }
+          }
+          return ans;
+        }
+      }
+
+      console.log(longest(["apple", "banana", "pear", "kiwi"]));
+      console.log(longest([]));
+    </script>
+  </body>
+</html>

@@ -1,0 +1,5 @@
+
+      This field is required This field is required Please enter a valid email
+      address This field is required Please select a query type This field is
+      required To submit this form, please consent to being contacted Message
+      Sent! Thanks for completing the form. We'll be in touch soon!
